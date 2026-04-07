@@ -12,7 +12,13 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const menuItems = ['Home', 'About', 'How It Works', 'Features', 'Pricing', 'Contact'];
+  const menuItems = ["Vision",
+"How It Works",
+"Features",
+"Opportunity",
+"Business Model",
+"Roadmap",
+"Contact"];
 
   return (
     <nav className={`sticky-top ${scrolled ? 'header-scrolled' : ''}`}>
@@ -34,9 +40,9 @@ function Navbar() {
           </ul>
 
           {/* CTA */}
-          <button className="bg-white text-dark px-5 py-2 rounded-full text-sm font-medium shadow-md hover:scale-105 transition-transform">
+          {/* <button className="bg-white text-dark px-5 py-2 rounded-full text-sm font-medium shadow-md hover:scale-105 transition-transform">
             Join Waitlist
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>

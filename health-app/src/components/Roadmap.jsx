@@ -26,12 +26,12 @@ function Roadmap() {
     <section className="py-20 bg-lightGray">
       
       {/* Heading */}
-      <div className="text-center mb-16 px-6">
+      <div className="max-w-6xl mx-auto text-start mb-16 px-6">
         <h2 className="text-3xl font-bold mb-4">
           Our Strategic Roadmap
         </h2>
         <p className="text-gray-500">
-          A clear vision for the future of intelligent healthcare.
+          We utilize a freemium subscription model designed to onboard users easily while offering powerful premium features for those who want to fully unlock their health potential.
         </p>
       </div>
 

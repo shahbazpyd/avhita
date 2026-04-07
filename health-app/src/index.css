@@ -56,9 +56,99 @@ body {
   z-index: 3;
 }
 
+/* How It Works Parent Card */
+#scrollspyHeading2.backgroundimg {
+  width: min(1280px, calc(100% - 64px));
+  margin: 24px auto;
+  padding: 10px 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #f5fcfb, #e9f8f5);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.backgroundimg {
+  background: #0d9488 url(/assets/video-overlay-DIUxykPh.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.howitworks-parent-card {
+  padding: 3rem 0;
+}
+
+.primary-bg,
+.btn-primary {
+  background: #0d9488;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+}
+
+#scrollspyHeading3 {
+  background: linear-gradient(180deg, #f5fcfb, #e9f8f5);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px;
+  background: #0d948847;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 18px 16px;
+  min-height: 200px;
+  background: #ecfaf7;
+}
+
+/* Pricing Cards */
+.pricing-card-free {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  transition: all 0.3s;
+  padding: 2rem;
+}
+
+.pricing-card-premium {
+  background-color: #0d9488;
+  color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: all 0.3s;
+  padding: 2rem;
+}
+
+/* FAQ Cards */
+.faq-card {
+  background: #fff;
+  border: 1px solid #d9eeeb;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px #0d948814;
+  overflow: hidden;
 }

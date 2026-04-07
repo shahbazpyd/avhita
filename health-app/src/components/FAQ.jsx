@@ -32,13 +32,14 @@ function FAQ() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="scrollspyHeading2" className="backgroundimg shadow-md hover:shadow-lg transition">
       
       {/* Heading */}
-      <div className="text-center mb-12 px-6">
+      <div className="max-w-6xl mx-auto text-start mb-12 px-6">
         <h2 className="text-3xl font-bold mb-4">
           Frequently Asked Questions
         </h2>
+        <p>Quick answers about how Avhita ECG helps you centralize records, coordinate care, and stay proactive.</p>
       </div>
 
       {/* Accordion */}
@@ -47,7 +48,7 @@ function FAQ() {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border border-borderGray rounded-xl overflow-hidden"
+            className="faq-card"
           >
             
             {/* Question */}

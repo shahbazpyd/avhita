@@ -12,7 +12,9 @@ function ProblemSolution() {
       <div className="relative max-w-6xl mx-auto grid grid-cols-3 gap-10">
 
         {/* LEFT - Problems */}
-        <div className="space-y-16 text-right pr-10">
+        <div className="text-right pr-10">
+          <h3 className="text-xl font-bold text-red-500 mb-8">The Problem</h3>
+          <div className="space-y-16">
 
           <div>
             <h3 className="font-semibold text-red-500">
@@ -40,6 +42,7 @@ function ProblemSolution() {
               The system treats sickness, not wellness. We wait for symptoms instead of identifying risks before they become critical problems.
             </p>
           </div>
+          </div>
         </div>
 
         {/* CENTER LINE */}
@@ -53,7 +56,9 @@ function ProblemSolution() {
         </div>
 
         {/* RIGHT - Solutions */}
-        <div className="space-y-16 pl-10">
+        <div className="pl-10">
+          <h3 className="text-xl font-bold text-green-600 mb-8">The Solution</h3>
+          <div className="space-y-16">
 
           <div>
             <h3 className="font-semibold text-green-600">
@@ -80,6 +85,7 @@ function ProblemSolution() {
             <p className="text-gray-500 text-sm">
               Our intelligent engine analyzes your health data to identify potential risks and empower you to make better-informed decisions.
             </p>
+          </div>
           </div>
         </div>
 

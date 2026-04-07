@@ -9,25 +9,25 @@ function Features() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20" id="scrollspyHeading3">
       
       {/* Heading */}
-      <div className="max-w-4xl mx-auto text-center mb-16 px-6">
+      <div className="max-w-6xl mx-auto text-start mb-16 px-6">
         <h2 className="text-3xl font-bold mb-4">
           A Powerful Suite of Features
         </h2>
         <p className="text-gray-500">
-          Designed to empower providers and patients with modern tools.
+         Our platform simplifies health data management into three intuitive steps. Click on each step to learn more about how we put you in control of your health information.
         </p>
       </div>
 
       {/* Grid */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-6">
+      <div className="max-w-6xl mx-auto features-grid py-6">
         
         {features.map((item, index) => (
           <div
             key={index}
-            className="border border-borderGray rounded-xl p-6 hover:shadow-md transition"
+            className="feature-card"
           >
             <h3 className="font-semibold text-gray-800">
               {item}

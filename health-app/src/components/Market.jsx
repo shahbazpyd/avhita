@@ -5,13 +5,12 @@ function Market() {
     <section className="py-20 bg-lightGray">
       
       {/* Heading */}
-      <div className="max-w-5xl mx-auto text-center mb-12 px-6">
+      <div className="max-w-6xl mx-auto text-start mb-12 px-6">
         <h2 className="text-3xl font-bold mb-4">
           The Market Opportunity
         </h2>
         <p className="text-gray-500">
-          The digital health market is experiencing explosive growth, driven
-          by increasing demand for integrated patient care solutions.
+         The digital health market is experiencing explosive growth, driven by a fundamental shift towards patient-centric care. Patients now demand tools that provide control, transparency, and convenience—Synapse Health is built to lead this transformation.
         </p>
       </div>
 
