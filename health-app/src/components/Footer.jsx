@@ -1,49 +1,49 @@
+import logo from "../assets/logo-avhita.png";
+
 function Footer() {
+  const menuItems = [
+    { label: "Vision", id: "vision" },
+    { label: "How It Works", id: "howitworks" },
+    { label: "Features", id: "features" },
+    { label: "Opportunity", id: "market" },
+    { label: "Business Model", id: "pricing" },
+    { label: "Roadmap", id: "roadmap" },
+    { label: "Contact", id: "contact" },
+  ];
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
-    <footer className="bg-dark text-white py-12">
-      
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
-        
-        {/* Brand */}
-        <div>
-          <h2 className="text-2xl font-bold mb-4 text-primary">
-            avhita
-          </h2>
-          <p className="text-gray-400 text-sm">
-            Transforming healthcare through intelligent data and predictive
-            insights.
-          </p>
-        </div>
+    <footer className="bg-dark text-white py-4 ">
+      <div className="max-w-6xl mx-auto px-6 text-center ">
+        {/* Logo */}
+        {/* <div className="mb-8">
+          <img src={logo} alt="avhita" className="h-10 cursor-pointer" onClick={() => scrollToSection('hero')} />
+        </div> */}
 
-        {/* Links */}
-        <div>
-          <h3 className="font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
-            <li>Home</li>
-            <li>Features</li>
-            <li>How It Works</li>
-            <li>Contact</li>
-          </ul>
-        </div>
+        {/* Menu Items */}
+        <ul className="flex flex-wrap justify-center gap-8 text-sm font-medium text-white/90 mb-8">
+          {menuItems.map((item) => (
+            <li
+              key={item.id}
+              onClick={() => scrollToSection(item.id)}
+              className="cursor-pointer hover:text-white transition-colors"
+            >
+              {item.label}
+            </li>
+          ))}
+        </ul>
 
-        {/* Contact */}
-        <div>
-          <h3 className="font-semibold mb-4">Contact</h3>
-          <p className="text-gray-400 text-sm">
-            support@avhita.com
-          </p>
-          <p className="text-gray-400 text-sm">
-            +91 98765 43210
-          </p>
+        {/* Divider */}
+        <div className="border-t border-gray-700 pt-6">
+          <p className="text-gray-500 text-sm">© 2026 Avhita ECG. All rights reserved.</p>
         </div>
-
       </div>
-
-      {/* Bottom */}
-      <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-6">
-        © 2026 Avhita. All rights reserved.
-      </div>
-
     </footer>
   );
 }

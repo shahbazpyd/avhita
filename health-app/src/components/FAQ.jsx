@@ -32,7 +32,7 @@ function FAQ() {
   ];
 
   return (
-    <section id="scrollspyHeading2" className="backgroundimg shadow-md hover:shadow-lg transition">
+    <section className="backgroundimg shadow-md hover:shadow-lg transition scrollspyHeading2">
       
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-start mb-12 px-6">

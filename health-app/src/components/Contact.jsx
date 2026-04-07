@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="scrollspyHeading2" className="py-20 px-20 bg-lightGray backgroundimg shadow-md hover:shadow-lg transition">
+    <section id="contact" className="py-20 px-20 bg-lightGray backgroundimg shadow-md hover:shadow-lg transition scrollspyHeading2">
         
       
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-6">

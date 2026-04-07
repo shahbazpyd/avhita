@@ -23,7 +23,7 @@ function Roadmap() {
   ];
 
   return (
-    <section className="py-20 bg-lightGray">
+    <section id="roadmap" className="py-20 bg-lightGray">
       
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-start mb-16 px-6">

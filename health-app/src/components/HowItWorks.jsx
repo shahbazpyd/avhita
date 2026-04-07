@@ -2,9 +2,9 @@ import { Database, Users, TrendingUp } from "lucide-react";
 
 function HowItWorks() {
   return (
-    <section className="py-20">
+    <section id="howitworks" className="py-20">
       {/* Parent Card */}
-      <div id="scrollspyHeading2" className="backgroundimg shadow-md hover:shadow-lg transition">
+      <div  className="backgroundimg shadow-md hover:shadow-lg transition scrollspyHeading2">
         {/* Heading */}
         <div className="my-10 mx-auto text-start mb-16 px-6">
           <h2 className="text-3xl font-bold mb-4">How It Works</h2>

@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <section className="py-20 bg-white">
+    <section id="pricing" className="py-20 bg-white">
       
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-start mb-16 px-6">

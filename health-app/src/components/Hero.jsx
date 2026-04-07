@@ -22,7 +22,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="h-screen relative">
+    <section id="hero" className="h-screen relative">
       {/* Carousel */}
       <div className="relative w-full h-full overflow-hidden">
         {slides.map((slide, index) => (

@@ -2,7 +2,7 @@ import chartImg from "../assets/market-chart.png"; // replace later
 
 function Market() {
   return (
-    <section className="py-20 bg-lightGray">
+    <section id="market" className="py-20 bg-lightGray">
       
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-start mb-12 px-6">

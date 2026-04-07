@@ -9,7 +9,7 @@ function Features() {
   ];
 
   return (
-    <section className="py-20" id="scrollspyHeading3">
+    <section id="features" className="py-20 scrollspyHeading3">
       
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-start mb-16 px-6">

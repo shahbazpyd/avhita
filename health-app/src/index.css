@@ -57,7 +57,7 @@ body {
 }
 
 /* How It Works Parent Card */
-#scrollspyHeading2.backgroundimg {
+.scrollspyHeading2.backgroundimg {
   width: min(1280px, calc(100% - 64px));
   margin: 24px auto;
   padding: 10px 0;
@@ -99,7 +99,7 @@ body {
   }
 }
 
-#scrollspyHeading3 {
+.scrollspyHeading3 {
   background: linear-gradient(180deg, #f5fcfb, #e9f8f5);
 }
 
@@ -151,4 +151,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 8px 24px #0d948814;
   overflow: hidden;
+}
+.bg-dark{
+  background: #105c56 !important;
 }
